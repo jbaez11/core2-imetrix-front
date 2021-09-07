@@ -5,9 +5,25 @@ import 'datatables.net-bs4';
 import 'datatables.net-responsive';
 
 export default function Usuarios(){
+	//crear dataset para datatables
+
+	const dataSet = [
+		[1,"admin","admin@admin.com","sad234567"],
+		[2,"jonathan21","jbaez@imterix.com.co","sad234567"]
+	]
 	//ejecutar datatable
 	$(document).ready(function (){
-		$('.table').DataTable();
+		$('.table').DataTable({
+			data: dataSet,
+			
+
+			columns: [
+		            { title: "#" },
+		            { title: "Usuario" },
+					{ title: "Email" },
+		            
+		    ]
+		});
 	})
     return(
         <div className="content-wrapper" style={{minHeight: "494px" }}>
@@ -37,46 +53,29 @@ export default function Usuarios(){
 						
 					<div className="col-lg-12">
 
-<div className="card card-primary card-outline">
+						<div className="card card-primary card-outline">
 
-	<div className="card-header">
+							<div className="card-header">
 
-		
+								
 
-	</div>
+							</div>
 
-	<div className="card-body">
+							<div className="card-body">
 
-		<table className="table table-striped dt-responsive" style={{"width":"100%"}}>
-			
-		
-			 <thead>
-				 <tr>
-					 <th>#</th>
-					 <th>Usuario</th>
-					 <th>Email</th>
-					 	
-				 </tr>
-			 </thead>
+								<table className="table table-striped dt-responsive" style={{"width":"100%"}}>
+									
+								
+									
+								
 
-			 <tbody>
-				 <tr>
-					 <td>1</td>
-					 <td>jonathan21</td>
-					 <td>
-						 jbaez@imetrix.com.co
-					 </td>	
-				 </tr>
-			 </tbody>
-		
+								</table>
 
-		</table>
+							</div>
 
-	</div>
+						</div>
 
-</div>
-
-</div>
+						</div>
 
 					</div>
 
