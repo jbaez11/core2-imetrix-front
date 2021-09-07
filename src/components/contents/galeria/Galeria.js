@@ -84,13 +84,13 @@ export default function Galeria(){
 						
 						<div className="col-lg-12">
 
-							<div className="card card-primary card-outline">
+							<div className="card card-warning card-outline">
 
 								<div className="card-header">
 
 									<h5 className="m-0">
 
-										<button className="btn btn-primary" data-toggle="modal" data-target="#crearAdmin">Crear nueva foto</button>
+										<button className="btn btn-warning" data-toggle="modal" data-target="#crearAdmin">Crear nueva foto</button>
 
 									</h5>
 

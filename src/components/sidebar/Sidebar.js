@@ -4,9 +4,9 @@ import Photo from './user.jpg'
 export default function Sidebar(){
 
     const usuario = localStorage.getItem("USUARIO");
-
+    
     return(
-
+        
         <aside className="main-sidebar sidebar-dark-primary elevation-4">
             <a href="/" className="brand-link">
                 <img alt="logo" 
