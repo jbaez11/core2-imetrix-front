@@ -6,6 +6,7 @@ import 'datatables.net-bs4';
 import 'datatables.net-responsive';
 
 import CrearAdministradores from './CrearAdministradores';
+import EditarAdministradores from './EditarBorrarAdministradores';
 
 
 export default function Administradores(){
@@ -17,7 +18,7 @@ export default function Administradores(){
 		const dataSet = [];
 
 		getAdministradores.data.forEach((admin,index)=>{
-			dataSet[index] = [(index+1),admin.usuario,admin._id];
+			dataSet[index] = [(index+1),admin.usuario,[admin._id, admin.usuario]];
 		})
 
 		//ejecutar datatable
@@ -126,6 +127,7 @@ export default function Administradores(){
 			//ventana modal para crear administradores
 			}
 			<CrearAdministradores/>
+			<EditarAdministradores/>
         </div>
 
     )
