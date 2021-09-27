@@ -212,7 +212,7 @@ export default function CrearAdministradores(){
 
 const postData = data => {
     const url = `${rutaAPI}/crear-administrador`;
-    const token = localStorage.getItem("ACCESS_TOKEN");;
+    const token = localStorage.getItem("ACCESS_TOKEN");
     const params = {
         method : "POST",
         body: JSON.stringify(data),

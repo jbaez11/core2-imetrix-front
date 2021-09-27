@@ -1,3 +1,3 @@
 //exportar ruta de la api
 
-export const rutaAPI = "http://localhost:4000"
+export const rutaAPI = "https://api-imetrix-pag.azurewebsites.net"

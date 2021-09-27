@@ -56,15 +56,22 @@ export default function Sidebar(){
                                 </p>
                                 </a>
                             </li>
-
                             <li className="nav-item">
+                                <a href="/slide" className="nav-link">
+                                <i className="nav-icon far fa-file"></i>
+                                <p>
+                                    Gestor soluciones
+                                </p>
+                                </a>
+                            </li>
+                            {/* <li className="nav-item">
                                 <a href="/soluciones" className="nav-link">			          
                                 <i className="nav-icon far fa-file"></i>
                                 <p>
                                     Gestor Soluciones
                                 </p>
                                 </a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <a href="/servicios" className="nav-link">			          
                                 <i className="nav-icon far fa-file"></i>
@@ -84,14 +91,23 @@ export default function Sidebar(){
                                 </p>
                                 </a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href="/clientes" className="nav-link">			           
                                 <i className="nav-icon far fa-file"></i>
                                 <p>
                                     Gestor Clientes
                                 </p>
                                 </a>
+                            </li> */}
+                            <li className="nav-item">
+                                <a href="/galeria" className="nav-link">
+                                <i className="nav-icon fas fa-users"></i>
+                                <p>
+                                    Gestor Clientes
+                                </p>
+                                </a>
                             </li>
+                            
                             <li className="nav-item">
                                 <a href="/articulos" className="nav-link">			           
                                 <i className="nav-icon far fa-file"></i>
@@ -101,30 +117,30 @@ export default function Sidebar(){
                                 </a>
                             </li>
 
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href="/usuarios" className="nav-link">
                                 <i className="nav-icon fas fa-users"></i>
                                 <p>
                                     Usuarios
                                 </p>
                                 </a>
-                            </li>
-                            <li className="nav-item">
+                            </li> */}
+                            {/* <li className="nav-item">
                                 <a href="/slide" className="nav-link">
                                 <i className="nav-icon fas fa-users"></i>
                                 <p>
                                     Slide
                                 </p>
                                 </a>
-                            </li>
-                            <li className="nav-item">
+                            </li> */}
+                            {/* <li className="nav-item">
                                 <a href="/galeria" className="nav-link">
                                 <i className="nav-icon fas fa-users"></i>
                                 <p>
                                     Galeria
                                 </p>
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </nav>
                 

@@ -35,7 +35,7 @@ export default function Administradores(){
 
 									<h5 className="m-0">
 
-										<button className="btn btn-warning" data-toggle="modal" data-target="#crearAdmin">Crear nuevo administrador</button>
+										<button className="btn btn-warning" data-toggle="modal" data-target="#crearAdmin">Crear nuevo servicio</button>
 
 									</h5>
 
